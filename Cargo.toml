@@ -13,7 +13,7 @@ default-features = false
 features = ["mutex", "spin_mutex", "rwlock", "once", "barrier"]
 
 [dependencies.stable_deref_trait]
-git = "https://github.com/theseus-os/stable_deref_trait.git"
+git = "https://github.com/kavanmevada/stable_deref_trait.git"
 branch = "spin"
 default-features = false
 features = [ "alloc", "spin" ]
